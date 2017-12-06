@@ -53,12 +53,12 @@
 				<div class="col-md-10">
 					<ul class="menu">
 						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Página Inicial</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">A Burguer Mash</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Cardárpio</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Trabalhe Conosco</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Fornecedor</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Parcerias</a></li>
-						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Contato</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'sobre' )); ?>">A Burguer Mash</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'cardapio' )); ?>">Cardárpio</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Trabalhe Conosco</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'seja-nosso-fornecedor' )); ?>">Fornecedor</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Parcerias</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-md-1 col-md-offset-1 text-right">

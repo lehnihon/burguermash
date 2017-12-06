@@ -33,9 +33,9 @@ new WOW().init();
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo esc_url( home_url( '' ) ); ?>">INÍCIO</a></li
 					><li><a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">BURGUER MASH</a></li
-					><li><a href="<?php echo esc_url( home_url( '' ) ); ?>">CARDÁRPIO</a></li
-					><li><a href="<?php echo esc_url( home_url( '' ) ); ?>">FOTOS</a></li
-					><li><a href="<?php echo esc_url( home_url( '' ) ); ?>">FALE CONOSCO</a></li>
+					><li><a href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">CARDÁRPIO</a></li
+					><li><a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>">FOTOS</a></li
+					><li><a href="<?php echo esc_url( home_url( 'contato' ) ); ?>">FALE CONOSCO</a></li>
 				</ul>								
 			</div>
 
@@ -44,11 +44,11 @@ new WOW().init();
 					<nav>
 						<ul class="menu-principal clearfix">
 							<li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">INÍCIO</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">BURGUER MASH</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">CARDÁRPIO</a></li
+							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'sobre' ) ); ?>">BURGUER MASH</a></li
+							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">CARDÁRPIO</a></li
 							><li class='op-logo'><a href="<?php echo esc_url( home_url( '' ) ); ?>"><img class="logo-header" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">FOTOS</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">FALE CONOSCO</a></li
+							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>">FOTOS</a></li
+							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'contato' ) ); ?>">FALE CONOSCO</a></li
 							><li class='op-redes'>
 								<ul class="redes_sociais_header">
 									<li class="youtube"><a target="_blank" href="#"></a></li>

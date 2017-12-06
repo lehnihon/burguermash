@@ -114,8 +114,8 @@ add_action( 'widgets_init', 'site_widgets_init' );
  * Enqueue scripts and styles.
  */
 function site_scripts() {
-	wp_enqueue_style( 'site-style-bxslider', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
-	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/js/jquery.bxslider.css" );
+	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
+	wp_enqueue_style( 'site-style-bxslider', get_template_directory_uri() ."/js/jquery.bxslider.css" );
 	wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/animate.css" );
 	wp_enqueue_style( 'site-style-lightbox', get_template_directory_uri() ."/js/lightbox2/src/css/lightbox.css" );
 	wp_enqueue_style( 'site-style', get_stylesheet_uri() );
@@ -134,52 +134,97 @@ function site_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
 
-// Change number or products per row to 3
-add_filter('loop_shop_columns', 'loop_columns');
-if (!function_exists('loop_columns')) {
-	function loop_columns() {
-		return 4; // 3 products per row
-	}
+function change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Produtos';
+    $submenu['edit.php'][5][0] = 'Produtos';
+    $submenu['edit.php'][10][0] = 'Adicionar Produtos';
+    echo '';
+}
+function change_post_object_label() {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Produtos';
+        $labels->singular_name = 'Produto';
+        $labels->add_new = 'Adicionar Produto';
+        $labels->add_new_item = 'Adicionar Produto';
+        $labels->edit_item = 'Editar Produto';
+        $labels->new_item = 'Produto';
+        $labels->view_item = 'Ver Produto';
+        $labels->search_items = 'Procurar Produto';
+        $labels->not_found = 'Produto não encontrado';
+        $labels->not_found_in_trash = 'Sem Produtos na lixeira';
+}
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
+
+
+function register_post_type_fotos(){
+	$singular = 'Foto';
+	$plural = 'Fotos';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar novo '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('fotos',$args);
+}
+add_action(	'init','register_post_type_fotos');
+
+function wporg_add_custom_box()
+{
+    add_meta_box(
+        'wporg_box_id',           // Unique ID
+        'Extras',  // Box title
+        'wporg_custom_box_html',  // Content callback, must be of type callable
+        'post'                   // Post type
+    );
+}
+add_action('add_meta_boxes', 'wporg_add_custom_box');
+
+function wporg_custom_box_html($post)
+{
+	$preco = get_post_meta($post->ID, 'preco', true);
+	$video = get_post_meta($post->ID, 'video', true);
+    ?>
+	    <p>
+	    	<label>Preço do Produto: </label>
+		    <input style="width: 100%" type="text" name="preco" value="<?php echo  esc_html($preco) ?>">
+	    </p>
+	    <p>
+	    	<label>Link do Vídeo: </label>
+	    	<textarea style="width: 100%" name="video"><?php echo $video; ?></textarea>
+	    </p>
+    <?php
 }
 
-function template_chooser($template)   
-{    
-	global $wp_query;   
-	$post_type = get_query_var('post_type');   
-	if( isset($_GET['s']) && $post_type == 'blog' )   
-	{
-		return locate_template('search-blog.php');  //  redirect to archive-search.php
-	}   
-	return $template;   
+function wporg_save_postdata($post_id)
+{
+	if (array_key_exists('preco', $_POST)) {
+        update_post_meta(
+            $post_id,
+            'preco',
+            sanitize_text_field($_POST['preco'])
+        );
+    }
+    if (array_key_exists('video', $_POST)) {
+        update_post_meta(
+            $post_id,
+            'video',
+            $_POST['video']
+        );
+    }
 }
-add_filter('template_include', 'template_chooser');
+add_action('save_post', 'wporg_save_postdata');
 
-
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Custom functions that act independently of the theme templates.
- */
-require get_template_directory() . '/inc/extras.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
 
 /**
  * Load bootstrap integration.

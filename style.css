@@ -23,6 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: Alex Brush;
   src: url(font/AlexBrush-Regular.ttf); }
 #page {
+  background-color: #f9f2e8;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #31302f;
   text-align: center;
@@ -128,17 +129,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     left: 0px; }
     #page .bx-wrapper .bx-viewport .bx-clone {
       display: none !important; }
-  #page .btn-receba {
-    background-color: #f3f2e9;
-    font-weight: bold;
-    padding: 5px 25px;
-    border: 0;
-    color: #373737; }
-  #page .btn-receba:hover {
-    background-color: #F9F8F4; }
-  #page .input-receba-wrap {
-    margin-bottom: 5px;
-    color: #606060; }
   #page .input-message {
     background-color: #efc031;
     text-align: left;
@@ -150,7 +140,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-message::placeholder {
     color: #9e3a27 !important; }
   #page .input-contato {
-    background-color: #efc031;
+    background-color: #FFF;
     text-align: left;
     border: 0;
     width: 100%;
@@ -162,25 +152,45 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-contato:active, #page .input-contato:hover, #page .input-contato:focus, #page .input-message:active, #page .input-message:hover, #page .input-message:focus {
     border: 0;
     outline: 0; }
+  #page .btn-contato {
+    padding: 5px 0;
+    border: 0;
+    width: 190px;
+    background-color: #950e19;
+    border: 1px solid #f9f2e8;
+    color: #FFF;
+    border-radius: 50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  #page .btn-contato:hover {
+    background-color: #FFF !important;
+    color: #950e19 !important; }
   #page .input-news {
-    background-color: #efc031;
+    background-color: #FFF;
     text-align: center;
     border: 0;
     width: 200px;
     border-radius: 50px;
     margin-bottom: 10px;
     padding: 5px 0; }
-  #page .input-news::placeholder {
-    color: #FFF !important; }
   #page .btn-news {
     padding: 5px 0;
     border: 0;
     width: 190px;
-    background-color: #9e3a27;
+    background-color: #ed4021;
     color: #FFF;
-    border-radius: 50px; }
+    border-radius: 50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
   #page .btn-news:hover {
-    background-color: #e8765f; }
+    background-color: #FFF !important;
+    color: #ed4021 !important; }
   #page #header {
     position: absolute;
     z-index: 1000;
@@ -412,14 +422,57 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     text-align: center; }
     #page div#content section#paginas h1 {
       margin-bottom: 45px; }
-    #page div#content section#paginas .col-md-3, #page div#content section#paginas .col-md-4 {
-      margin-bottom: 60px; }
     #page div#content section#paginas h2, #page div#content section#paginas h3 {
       padding-bottom: 20px; }
-    #page div#content section#paginas p {
-      font-size: 16px;
-      padding-bottom: 20px;
-      line-height: 1.6; }
+    #page div#content section#paginas .cardapio .menu-cardapio {
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 30px;
+      margin-bottom: 30px; }
+      #page div#content section#paginas .cardapio .menu-cardapio:after {
+        display: block;
+        content: "";
+        clear: both; }
+      #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio {
+        box-sizing: border-box;
+        float: left;
+        width: 12.5%;
+        text-align: center; }
+        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a {
+          transition: all 0.5s ease;
+          color: #950e19;
+          display: block;
+          font-weight: bold; }
+        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a.active {
+          color: #eb2d3c !important; }
+        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a:hover {
+          padding-top: 5px;
+          color: #eb2d3c; }
+    #page div#content section#paginas .cardapio .desc-cardapio article {
+      border-bottom: 1px solid #afaba2;
+      padding: 20px 0; }
+      #page div#content section#paginas .cardapio .desc-cardapio article:after {
+        display: block;
+        content: "";
+        clear: both; }
+      #page div#content section#paginas .cardapio .desc-cardapio article h4 {
+        margin: 0;
+        margin-bottom: 10px; }
+      #page div#content section#paginas .cardapio .desc-cardapio article footer div {
+        float: left;
+        margin-right: 10px; }
+      #page div#content section#paginas .cardapio .desc-cardapio article .modal {
+        margin-top: 1%; }
+        #page div#content section#paginas .cardapio .desc-cardapio article .modal .close {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          font-size: 25px; }
+          #page div#content section#paginas .cardapio .desc-cardapio article .modal .close span {
+            color: #FFF !important; }
+    #page div#content section#paginas .cardapio .desc-cardapio article:last-child {
+      border-bottom: 0;
+      padding-bottom: 0px; }
   #page div#content section.margin-delivery {
     margin-bottom: 0px !important; }
   #page div#content section#sobre {

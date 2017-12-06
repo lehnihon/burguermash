@@ -28,6 +28,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 #page{
+	background-color:#f9f2e8;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color:#31302f;
 	text-align:center;
@@ -174,21 +175,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		} 		
 	}
 
-	.btn-receba{ 
-		background-color: #f3f2e9;
-		font-weight:bold;
-		padding:5px 25px;
-		border:0;
-		color:#373737;
-	}
-	.btn-receba:hover{
-		background-color:#F9F8F4;
-	}
-	.input-receba-wrap{
-		margin-bottom: 5px;
-		color:#606060;
-	}
-
 	.input-message{
 		background-color:#efc031;
 		text-align:left;
@@ -204,7 +190,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.input-contato {
-		background-color:#efc031;
+		background-color:#FFF;
 		text-align:left;
 		border:0;
 		width:100%;
@@ -222,8 +208,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 
+	.btn-contato{
+		padding:5px 0;
+		border:0;
+		width:190px;
+		background-color:#950e19;
+		border:1px solid #f9f2e8;
+		color:#FFF;
+		border-radius:50px;
+		-webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out; 
+        transition: all 0.5s ease-in-out;
+	}
+
+	.btn-contato:hover{
+		background-color:#FFF !important;
+		color:#950e19 !important;
+	}
+
 	.input-news {
-		background-color:#efc031;
+		background-color:#FFF;
 		text-align:center;
 		border:0;
 		width:200px;
@@ -231,21 +237,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin-bottom:10px;
 		padding:5px 0;
 	}
-	.input-news::placeholder{
-		color:#FFF !important;
-	}
 
 	.btn-news{
 		padding:5px 0;
 		border:0;
 		width:190px;
-		background-color:#9e3a27;
+		background-color:#ed4021;
 		color:#FFF;
 		border-radius:50px;
+		-webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out; 
+        transition: all 0.5s ease-in-out;
 	}
 
 	.btn-news:hover{
-		background-color:#e8765f;
+		background-color:#FFF !important;
+		color:#ed4021 !important;
 	}
 
 	@import 'header';

@@ -47,19 +47,83 @@ div#content{
 			margin-bottom:45px;
 		}
 
-
-		.col-md-3,.col-md-4{
-			margin-bottom:60px;
-		}
-
 		h2,h3{
 			padding-bottom:20px;
 		}
 
-		p{
-			font-size:16px;
-			padding-bottom:20px;
-			line-height:1.6;
+
+		.cardapio{
+			.menu-cardapio{
+				box-sizing: border-box;
+				width:100%;
+				min-height:30px;
+				margin-bottom:30px;
+
+				&:after{
+					display: block;
+				    content: "";
+				    clear: both;
+				}
+				.op-cardapio{
+					box-sizing: border-box;
+					float:left;
+					width:12.5%;
+					text-align:center;
+
+					a{
+						transition: all 0.5s ease;
+						color:#950e19;
+						display:block;
+						font-weight:bold;
+					}
+					a.active{
+						color:#eb2d3c !important;
+					}
+					a:hover{
+						padding-top:5px;
+						color:#eb2d3c;
+					}
+				}
+			}
+
+			.desc-cardapio{
+				article{
+					border-bottom:1px solid #afaba2;
+					padding:20px 0;
+					&:after{
+						display: block;
+					    content: "";
+					    clear: both;
+					}
+					h4{
+						margin:0;
+						margin-bottom:10px;
+					}
+
+					footer{
+						div{
+							float:left;
+							margin-right:10px;
+						}
+					}
+					.modal{
+						margin-top:1%;
+						.close{
+							position:absolute;
+							right:10px;
+							top:10px;
+							font-size:25px;
+							span{
+								color:#FFF !important;
+							}
+						}
+					}
+				}
+				article:last-child{
+					border-bottom:0;
+					padding-bottom:0px;
+				}
+			}
 		}
 	}
 
