@@ -26,42 +26,45 @@ new WOW().init();
 <div id="page" class="hfeed site">
 	<header id="headerb" class="header">
 		<div class="container">
-			<div class="menu-responsivo">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-				</button>
-				<ul class="dropdown-menu">
-					<li><a href="<?php echo esc_url( home_url( '' ) ); ?>">INÍCIO</a></li
-					><li><a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">BURGUER MASH</a></li
-					><li><a href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">CARDÁRPIO</a></li
-					><li><a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>">FOTOS</a></li
-					><li><a href="<?php echo esc_url( home_url( 'contato' ) ); ?>">FALE CONOSCO</a></li>
-				</ul>								
-			</div>
 
 			<div class="row header-menu">
 				<div class="col-md-12">
-					<nav>
-						<ul class="menu-principal clearfix">
-							<li class='op-menu'><a href="<?php echo esc_url( home_url( '' ) ); ?>">INÍCIO</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'sobre' ) ); ?>">BURGUER MASH</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">CARDÁRPIO</a></li
-							><li class='op-logo'><a href="<?php echo esc_url( home_url( '' ) ); ?>"><img class="logo-header" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>">FOTOS</a></li
-							><li class='op-menu'><a href="<?php echo esc_url( home_url( 'contato' ) ); ?>">FALE CONOSCO</a></li
-							><li class='op-redes'>
+					<nav class="navbar navbar-expand-lg navbar-dark">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<img class="logop float-right" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logop.png"; ?>"/>
+						<div class="row collapse navbar-collapse" id="navbarSupportedContent">
+							<div class="col-md">
+								<a class="nav-link" href="<?php echo home_url( '/' ); ?>">INÍCIO</a>
+							</div>
+							<div class="col-md">
+								<a href="<?php echo esc_url( home_url( 'sobre' ) ); ?>">BURGUER MASH</a>
+							</div>
+							<div class="col-md">
+								<a href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">CARDÁRPIO</a>
+							</div>
+							<div class="col-md logo">
+								<a href="<?php echo esc_url( home_url( '' ) ); ?>"><img class="logo-header" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
+							</div>
+							<div class="col-md">
+								<a href="<?php echo esc_url( home_url( 'fotos' ) ); ?>">FOTOS</a>
+							</div>
+							<div class="col-md">
+								<a href="<?php echo esc_url( home_url( 'contato' ) ); ?>">FALE CONOSCO</a>
+							</div>
+							<div class="col-md redes">
 								<ul class="redes_sociais_header">
 									<li class="youtube"><a target="_blank" href="#"></a></li>
 									<li class="instagram"><a target="_blank" href="#"></a></li>
 									<li class="twitter"><a target="_blank" href="#"></a></li>
 									<li class="facebook"><a target="_blank" href="#"></a></li>
 								</ul>	
-							</li>
-						</ul>
-					</nav><!-- #site-navigation -->						
+							</div>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
-
 

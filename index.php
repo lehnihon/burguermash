@@ -1,21 +1,11 @@
 <?php
 get_header('home'); ?>
-<div id="banner" class="wow fadeIn">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			<?php 
-			    echo do_shortcode("[metaslider id=28]"); 
-			?>
-			</div>
-		</div>
-	</div>
-</div>
+
 <div id="content">
 	<section id="descricao">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
+				<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
 					<p class="alexa">Autoridade quando</p>
 					<h2>o assunto é hamburguer</h2>
 					<p>Na cozinha do Burger Mash, só entram ingredientes de qualidade, frescos e preparados diariamente com muito cuidado.</p>
@@ -23,7 +13,7 @@ get_header('home'); ?>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-3 fadeInLeft wow">
-					<a href="<?php echo esc_url( home_url( '/weiss' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
 					<div class="desc-container">
 						<h3>nome do hamburguer</h3>
 						<p>
@@ -32,7 +22,7 @@ get_header('home'); ?>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInUp wow">
-					<a href="<?php echo esc_url( home_url( '/weiss' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
 					<div class="desc-container">
 						<h3>nome do hamburguer</h3>
 						<p>
@@ -41,7 +31,7 @@ get_header('home'); ?>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInUp wow">
-					<a href="<?php echo esc_url( home_url( '/weiss' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
 					<div class="desc-container">
 						<h3>nome do hamburguer</h3>
 						<p>
@@ -50,7 +40,7 @@ get_header('home'); ?>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInRight wow">
-					<a href="<?php echo esc_url( home_url( '/weiss' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
 					<div class="desc-container">
 						<h3>nome do hamburguer</h3>
 						<p>
@@ -60,8 +50,8 @@ get_header('home'); ?>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-md-offset-4 text-center wow fadeInUp">
-					<a class="btn-semfundo btn-rosa" href="#">NOSSO CARDÁPIO</a>
+				<div class="col-md-4 offset-md-4 text-center wow fadeInUp">
+					<a class="btn-semfundo btn-rosa" href="<?php echo esc_url( home_url( 'cardapio' ) ); ?>">NOSSO CARDÁPIO</a>
 				</div>
 			</div><br><br>
 		</div>
@@ -78,7 +68,7 @@ magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 consequat. Duis aute irure dolor in reprehenderit in volupt
 Excepteur sint occaecat cupidatat non proident, sunt in</p><br><br>
-					<a class="fadeInUp wow btn-semfundo btn-amarelo" href="#">CONHEÇA MAIS</a>
+					<a class="fadeInUp wow btn-semfundo btn-amarelo" href="<?php echo esc_url( home_url( 'sobre' ) ); ?>">CONHEÇA MAIS</a>
 				</div>
 			</div>
 		</div>
@@ -90,7 +80,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in</p><br><br>
 					<p class="alexa wow fadeInUp">Compartilhe seus melhores momentos com a gente</p>
 					<h2 class="insta wow fadeInUp">#BurguerMash</h2>
 					<p class="wow fadeInUp">Aproveite e siga a Burger Mash no <a href="#"><strong>Instagram</strong></a></p><br><br>
-					<img class="e-cinza img-responsive wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/insta-hamburguer.jpg"; ?>"/>
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/insta-hamburguer.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>

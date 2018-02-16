@@ -3,10 +3,9 @@
 	z-index:1000;
 	right:0;
 	left:0;
-
-    div.header-menu{
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-		font-size:16px;
+   div.header-menu{
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+        font-size:16px;
 
         .redes_sociais_header{
             margin-top: 15px;
@@ -15,7 +14,7 @@
             list-style:none;
             display: inline-block;
             padding-left: 10px;
-            width: 160px;
+            width: 170px;
 
         }
 
@@ -63,48 +62,27 @@
             background-repeat:no-repeat;
             width:45px;
             height:34px;
-            display:inline-block;       
+            display:inline-block;
         }
 
-		ul.menu-principal{
-			padding: 0;
-			margin: 0 auto;
-			width:100%;
-            .op-menu{
-                padding:100px 0px;
-            }
+        a{
+            font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+            display: inline-block;
+            padding:10px;
+            color:#FFF;
+            font-size:20px;
+            -webkit-transition: color 0.5s ease-in-out;
+            -moz-transition: color 0.5s ease-in-out;
+            -o-transition: color 0.5s ease-in-out;
+            -ms-transition: color 0.5s ease-in-out;    
+            transition: color 0.5s ease-in-out;
+        }
 
-            .op-redes{
-                padding:90px 10px;
-            }
-
-			li{
-                text-align:center;
-				float:left;
-				list-style-type: none;
-                width:14%;
-				a{
-					font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-					display: inline-block;
-					padding:10px;
-					color:#FFF;
-					font-size:20px;
-					-webkit-transition: color 0.5s ease-in-out;
-	                -moz-transition: color 0.5s ease-in-out;
-	                -o-transition: color 0.5s ease-in-out;
-	                -ms-transition: color 0.5s ease-in-out;    
-	                transition: color 0.5s ease-in-out;
-				}
-			}
-
-			li:hover{
-				a{
-					color:#f35353;
-				}
-			}
-		}
-    	
+        a:hover{
+            color:#f35353;
+        }
     }
+
 }
 
 #headerb{
@@ -120,7 +98,7 @@
             list-style:none;
             display: inline-block;
             padding-left: 10px;
-            width: 160px;
+            width: 170px;
 
         }
 
@@ -168,47 +146,25 @@
             background-repeat:no-repeat;
             width:45px;
             height:34px;
-            display:inline-block;       
+            display:inline-block;
         }
 
-        ul.menu-principal{
-            padding: 0;
-            margin: 0 auto;
-            width:100%;
-            .op-menu{
-                padding:100px 0px;
-            }
-
-            .op-redes{
-                padding:90px 10px;
-            }
-
-            li{
-                text-align:center;
-                float:left;
-                list-style-type: none;
-                width:14%;
-                a{
-                    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-                    display: inline-block;
-                    padding:10px;
-                    color:#31302f;
-                    font-size:20px;
-                    -webkit-transition: color 0.5s ease-in-out;
-                    -moz-transition: color 0.5s ease-in-out;
-                    -o-transition: color 0.5s ease-in-out;
-                    -ms-transition: color 0.5s ease-in-out;    
-                    transition: color 0.5s ease-in-out;
-                }
-            }
-
-            li:hover{
-                a{
-                    color:#f35353;
-                }
-            }
+        a{
+            font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+            display: inline-block;
+            padding:10px;
+            color:#000;
+            font-size:20px;
+            -webkit-transition: color 0.5s ease-in-out;
+            -moz-transition: color 0.5s ease-in-out;
+            -o-transition: color 0.5s ease-in-out;
+            -ms-transition: color 0.5s ease-in-out;    
+            transition: color 0.5s ease-in-out;
         }
-        
+
+        a:hover{
+            color:#f35353;
+        }
     }
 }
 
@@ -221,17 +177,12 @@
     left: 0 !important;
     top: 0 !important;
     background-color: #000000 !important;
-    .op-logo {
+    color:#FFF !important;
+    .logo {
         display:none !important;
-        width:16.6% !important;
     }
-    .op-menu{
-        padding:10px 10px !important;
-        width:16.6% !important;
-    }
-    .op-redes{
-        padding:0px 10px !important;
-        width:16.6% !important;
+    .redes{
+        display:none !important;
     }
 
     li{
@@ -263,33 +214,29 @@
 
 @media (max-width: 991px) {  
 
-	.logo-header{
+	.logo{
 		display:none !important;
-	}
-
-	div.menu-responsivo{
-		width: 50px;
-		text-align: left;
-		display: block;
-		padding: 10px;
-		ul.dropdown-menu{
-			top:auto !important;
-		}
-	}
-	ul.menu-principal{
-		display: none;
 	}
 
 	.fixar {
 		padding:0px !important;
 	}
+
+    .header, .headerb{
+        background-color:#000;
+
+        a{
+            color:#FFF !important;
+        }
+
+        .redes{
+            display:none !important;
+        }
+    }
 }
 
 @media (min-width: 992px) {  
-	div.menu-responsivo{
-		display: none;
-	}
-	ul.menu-principal{
-		display: block;
-	}  
+    .logop{
+        display:none !important;
+    }
 }

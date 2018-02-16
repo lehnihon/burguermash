@@ -45,7 +45,7 @@ get_header(); ?>
 						          <div class="modal-dialog" role="document">
 						            <div class="modal-content">
 						              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						              <?php the_post_thumbnail('', array('class' => "img-responsive")); ?>
+						              <?php the_post_thumbnail('', array('class' => "img-fluid")); ?>
 						            </div><!-- /.modal-content -->
 						          </div><!-- /.modal-dialog -->
 						        </div><!-- /.modal -->

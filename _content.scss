@@ -8,7 +8,6 @@ div#banner{
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding-top:200px;
-
 }
 
 div#content{
@@ -71,7 +70,6 @@ div#content{
 					text-align:center;
 
 					a{
-						transition: all 0.5s ease;
 						color:#950e19;
 						display:block;
 						font-weight:bold;
@@ -80,7 +78,6 @@ div#content{
 						color:#eb2d3c !important;
 					}
 					a:hover{
-						padding-top:5px;
 						color:#eb2d3c;
 					}
 				}
@@ -181,6 +178,9 @@ div#content{
 		-o-background-size: auto !important;
 		background-size: auto !important;
 		background-position: -300px top !important;
+	}
+	div#banner{
+		padding-top:50px !important;
 	}
 
 }

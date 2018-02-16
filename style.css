@@ -206,7 +206,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         list-style: none;
         display: inline-block;
         padding-left: 10px;
-        width: 160px; }
+        width: 170px; }
       #page #header div.header-menu .redes_sociais_header li:hover {
         opacity: 0.6;
         filter: alpha(opacity=60);
@@ -243,32 +243,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         width: 45px;
         height: 34px;
         display: inline-block; }
-      #page #header div.header-menu ul.menu-principal {
-        padding: 0;
-        margin: 0 auto;
-        width: 100%; }
-        #page #header div.header-menu ul.menu-principal .op-menu {
-          padding: 100px 0px; }
-        #page #header div.header-menu ul.menu-principal .op-redes {
-          padding: 90px 10px; }
-        #page #header div.header-menu ul.menu-principal li {
-          text-align: center;
-          float: left;
-          list-style-type: none;
-          width: 14%; }
-          #page #header div.header-menu ul.menu-principal li a {
-            font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-            display: inline-block;
-            padding: 10px;
-            color: #FFF;
-            font-size: 20px;
-            -webkit-transition: color 0.5s ease-in-out;
-            -moz-transition: color 0.5s ease-in-out;
-            -o-transition: color 0.5s ease-in-out;
-            -ms-transition: color 0.5s ease-in-out;
-            transition: color 0.5s ease-in-out; }
-        #page #header div.header-menu ul.menu-principal li:hover a {
-          color: #f35353; }
+      #page #header div.header-menu a {
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+        display: inline-block;
+        padding: 10px;
+        color: #FFF;
+        font-size: 20px;
+        -webkit-transition: color 0.5s ease-in-out;
+        -moz-transition: color 0.5s ease-in-out;
+        -o-transition: color 0.5s ease-in-out;
+        -ms-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+      #page #header div.header-menu a:hover {
+        color: #f35353; }
   #page #headerb div.header-menu {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
     font-size: 16px; }
@@ -279,7 +266,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       list-style: none;
       display: inline-block;
       padding-left: 10px;
-      width: 160px; }
+      width: 170px; }
     #page #headerb div.header-menu .redes_sociais_header li:hover {
       opacity: 0.6;
       filter: alpha(opacity=60);
@@ -316,32 +303,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 45px;
       height: 34px;
       display: inline-block; }
-    #page #headerb div.header-menu ul.menu-principal {
-      padding: 0;
-      margin: 0 auto;
-      width: 100%; }
-      #page #headerb div.header-menu ul.menu-principal .op-menu {
-        padding: 100px 0px; }
-      #page #headerb div.header-menu ul.menu-principal .op-redes {
-        padding: 90px 10px; }
-      #page #headerb div.header-menu ul.menu-principal li {
-        text-align: center;
-        float: left;
-        list-style-type: none;
-        width: 14%; }
-        #page #headerb div.header-menu ul.menu-principal li a {
-          font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-          display: inline-block;
-          padding: 10px;
-          color: #31302f;
-          font-size: 20px;
-          -webkit-transition: color 0.5s ease-in-out;
-          -moz-transition: color 0.5s ease-in-out;
-          -o-transition: color 0.5s ease-in-out;
-          -ms-transition: color 0.5s ease-in-out;
-          transition: color 0.5s ease-in-out; }
-      #page #headerb div.header-menu ul.menu-principal li:hover a {
-        color: #f35353; }
+    #page #headerb div.header-menu a {
+      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+      display: inline-block;
+      padding: 10px;
+      color: #000;
+      font-size: 20px;
+      -webkit-transition: color 0.5s ease-in-out;
+      -moz-transition: color 0.5s ease-in-out;
+      -o-transition: color 0.5s ease-in-out;
+      -ms-transition: color 0.5s ease-in-out;
+      transition: color 0.5s ease-in-out; }
+    #page #headerb div.header-menu a:hover {
+      color: #f35353; }
   #page .fixar {
     padding: 0px !important;
     position: fixed !important;
@@ -350,16 +324,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     right: 0 !important;
     left: 0 !important;
     top: 0 !important;
-    background-color: #000000 !important; }
-    #page .fixar .op-logo {
-      display: none !important;
-      width: 16.6% !important; }
-    #page .fixar .op-menu {
-      padding: 10px 10px !important;
-      width: 16.6% !important; }
-    #page .fixar .op-redes {
-      padding: 0px 10px !important;
-      width: 16.6% !important; }
+    background-color: #000000 !important;
+    color: #FFF !important; }
+    #page .fixar .logo {
+      display: none !important; }
+    #page .fixar .redes {
+      display: none !important; }
     #page .fixar li a {
       color: #FFF !important; }
     #page .fixar li a:hover {
@@ -373,24 +343,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page .fixar .redes_sociais_header .facebook {
       background-image: url("images/redes-top.png") !important; }
   @media (max-width: 991px) {
-    #page .logo-header {
+    #page .logo {
       display: none !important; }
-    #page div.menu-responsivo {
-      width: 50px;
-      text-align: left;
-      display: block;
-      padding: 10px; }
-      #page div.menu-responsivo ul.dropdown-menu {
-        top: auto !important; }
-    #page ul.menu-principal {
-      display: none; }
     #page .fixar {
-      padding: 0px !important; } }
+      padding: 0px !important; }
+    #page .header, #page .headerb {
+      background-color: #000; }
+      #page .header a, #page .headerb a {
+        color: #FFF !important; }
+      #page .header .redes, #page .headerb .redes {
+        display: none !important; } }
   @media (min-width: 992px) {
-    #page div.menu-responsivo {
-      display: none; }
-    #page ul.menu-principal {
-      display: block; } }
+    #page .logop {
+      display: none !important; } }
   #page div#banner {
     position: relative;
     background-image: url("images/background.jpg");
@@ -439,14 +404,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         width: 12.5%;
         text-align: center; }
         #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a {
-          transition: all 0.5s ease;
           color: #950e19;
           display: block;
           font-weight: bold; }
         #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a.active {
           color: #eb2d3c !important; }
         #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a:hover {
-          padding-top: 5px;
           color: #eb2d3c; }
     #page div#content section#paginas .cardapio .desc-cardapio article {
       border-bottom: 1px solid #afaba2;
@@ -510,7 +473,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       -moz-background-size: auto !important;
       -o-background-size: auto !important;
       background-size: auto !important;
-      background-position: -300px top !important; } }
+      background-position: -300px top !important; }
+    #page div#banner {
+      padding-top: 50px !important; } }
   #page #footer {
     background-color: #7f161f;
     color: #FFFFFF;

@@ -16,7 +16,7 @@ get_header(); ?>
 
 					<?php endwhile; // End of the loop. ?>
 				</div>
-				<div class="col-md-5 col-md-offset-1 text-left">
+				<div class="col-md-5 offset-md-1 text-left">
 					<h3>Delivery</h3>
 					<p>11 3477-2584</p><br>
 					<h3>Endereço</h3>

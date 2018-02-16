@@ -21,7 +21,7 @@
 					<p>
 						Fale com a <strong>Burger Mash</strong>. <br> Será um prazer receber o seu contato.
 					</p>
-					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/cel.jpg"; ?>"/>
+					<img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/cel.jpg"; ?>"/>
 				</div>
 				<div class="col-md-4 col-md-offset-1">
 					<h3>Assine nossa <br>Newsletter</h3>

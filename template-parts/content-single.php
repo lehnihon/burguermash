@@ -11,7 +11,7 @@
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() && !is_search() ) { ?>
 			<?php the_post_thumbnail('detalhes', array(
-				'class' => "img-responsive",
+				'class' => "img-fluid",
 			)); ?>
 		<?php } ?>
 		

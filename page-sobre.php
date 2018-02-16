@@ -23,8 +23,8 @@ get_header(); ?>
 					Excepteur sint occaecat cupidatat non proident, sunt in</p><br>
 					<a class="fadeInUp wow btn-semfundo btn-amarelo" href="<?php echo esc_url( home_url( '/contato' ) ); ?>">FALE CONOSCO</a>
 				</div>
-				<div class="col-md-6 col-md-offset-1">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobredeta.jpg"; ?>"/>
+				<div class="col-md-6 offset-md-1">
+					<img class="e-claro img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobredeta.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>
