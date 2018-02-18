@@ -13,38 +13,38 @@ get_header('home'); ?>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-3 fadeInLeft wow">
-					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamb1.jpg"; ?>"/></a>
 					<div class="desc-container">
-						<h3>nome do hamburguer</h3>
+						<h3>X Mash</h3>
 						<p>
-							Descrevendo todos os ingredientes desse hamburguer em até 3 linhas no máximo. 
+							Blend de carne, queijo prato e o famoso molho secreto Burger Mash,(guardado a 7 chaves)
 						</p>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInUp wow">
-					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamb2.jpg"; ?>"/></a>
 					<div class="desc-container">
-						<h3>nome do hamburguer</h3>
+						<h3>Talento</h3>
 						<p>
-							Descrevendo todos os ingredientes desse hamburguer em até 3 linhas no máximo. 
+							Sanduíche de rosbife caseiro (mignon vermelho), queijo, rúcula e molho de mostarda servido no pão francês.
 						</p>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInUp wow">
-					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamb3.jpg"; ?>"/></a>
 					<div class="desc-container">
-						<h3>nome do hamburguer</h3>
+						<h3>Burguer Mash</h3>
 						<p>
-							Descrevendo todos os ingredientes desse hamburguer em até 3 linhas no máximo. 
+							Blend de carne, queijo prato,cebola roxa em conserva, tomate confitado, maionese Burger Mash 
 						</p>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInRight wow">
-					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamburguer.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamb4.jpg"; ?>"/></a>
 					<div class="desc-container">
-						<h3>nome do hamburguer</h3>
+						<h3>Bacon Mash</h3>
 						<p>
-							Descrevendo todos os ingredientes desse hamburguer em até 3 linhas no máximo. 
+							Blend de carne, queijo prato, bacon artesanal, cebola caramelizada, picles e maionese Burger Mash
 						</p>
 					</div>
 				</div>
@@ -62,12 +62,13 @@ get_header('home'); ?>
 				<div class="col-md-5">
 					<p class="alexb fadeInUp wow">Sobre a</p>
 					<h1 class="fadeInUp wow">Burguer Mash</h1>
-					<p class="fadeInUp wow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore 
-magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-consequat. Duis aute irure dolor in reprehenderit in volupt
-Excepteur sint occaecat cupidatat non proident, sunt in</p><br><br>
+					<p class="fadeInUp wow">A Burger Mash transformou a paixão pela cozinha em profissão!
+Tenha a certeza de que todo o nosso cardápio foi feito com os 
+melhores ingredientes, com muito carinho, cuidado e estudo.<br><br>
+
+A Burger Mash é a combinação perfeita entre arte, gastronomia 
+e um ambiente super aconchegante bem no coração do Jardim 
+Anália Franco, zona leste de São Paulo.</p><br><br>
 					<a class="fadeInUp wow btn-semfundo btn-amarelo" href="<?php echo esc_url( home_url( 'sobre' ) ); ?>">CONHEÇA MAIS</a>
 				</div>
 			</div>

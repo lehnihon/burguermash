@@ -256,66 +256,68 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         transition: color 0.5s ease-in-out; }
       #page #header div.header-menu a:hover {
         color: #f35353; }
-  #page #headerb div.header-menu {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-    font-size: 16px; }
-    #page #headerb div.header-menu .redes_sociais_header {
-      margin-top: 15px;
-      margin-bottom: 10px;
-      height: 34px;
-      list-style: none;
-      display: inline-block;
-      padding-left: 10px;
-      width: 170px; }
-    #page #headerb div.header-menu .redes_sociais_header li:hover {
-      opacity: 0.6;
-      filter: alpha(opacity=60);
-      /* For IE8 and earlier */ }
-    #page #headerb div.header-menu .redes_sociais_header a {
-      display: inline-block;
-      width: 34px;
-      height: 34px; }
-    #page #headerb div.header-menu .redes_sociais_header .youtube {
-      background-image: url("images/redes-topb.png");
-      background-position: left,center;
-      background-repeat: no-repeat;
-      width: 34px;
-      height: 34px;
-      display: inline-block; }
-    #page #headerb div.header-menu .redes_sociais_header .instagram {
-      background-image: url("images/redes-topb.png");
-      background-position: -48px,center;
-      background-repeat: no-repeat;
-      width: 34px;
-      height: 34px;
-      display: inline-block; }
-    #page #headerb div.header-menu .redes_sociais_header .twitter {
-      background-image: url("images/redes-topb.png");
-      background-position: -90px,center;
-      background-repeat: no-repeat;
-      width: 34px;
-      height: 34px;
-      display: inline-block; }
-    #page #headerb div.header-menu .redes_sociais_header .facebook {
-      background-image: url("images/redes-topb.png");
-      background-position: right,center;
-      background-repeat: no-repeat;
-      width: 45px;
-      height: 34px;
-      display: inline-block; }
-    #page #headerb div.header-menu a {
+  #page #headerb {
+    margin-bottom: 35px; }
+    #page #headerb div.header-menu {
       font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-      display: inline-block;
-      padding: 10px;
-      color: #000;
-      font-size: 20px;
-      -webkit-transition: color 0.5s ease-in-out;
-      -moz-transition: color 0.5s ease-in-out;
-      -o-transition: color 0.5s ease-in-out;
-      -ms-transition: color 0.5s ease-in-out;
-      transition: color 0.5s ease-in-out; }
-    #page #headerb div.header-menu a:hover {
-      color: #f35353; }
+      font-size: 16px; }
+      #page #headerb div.header-menu .redes_sociais_header {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 34px;
+        list-style: none;
+        display: inline-block;
+        padding-left: 10px;
+        width: 170px; }
+      #page #headerb div.header-menu .redes_sociais_header li:hover {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        /* For IE8 and earlier */ }
+      #page #headerb div.header-menu .redes_sociais_header a {
+        display: inline-block;
+        width: 34px;
+        height: 34px; }
+      #page #headerb div.header-menu .redes_sociais_header .youtube {
+        background-image: url("images/redes-topb.png");
+        background-position: left,center;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        display: inline-block; }
+      #page #headerb div.header-menu .redes_sociais_header .instagram {
+        background-image: url("images/redes-topb.png");
+        background-position: -48px,center;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        display: inline-block; }
+      #page #headerb div.header-menu .redes_sociais_header .twitter {
+        background-image: url("images/redes-topb.png");
+        background-position: -90px,center;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
+        display: inline-block; }
+      #page #headerb div.header-menu .redes_sociais_header .facebook {
+        background-image: url("images/redes-topb.png");
+        background-position: right,center;
+        background-repeat: no-repeat;
+        width: 45px;
+        height: 34px;
+        display: inline-block; }
+      #page #headerb div.header-menu a {
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+        display: inline-block;
+        padding: 10px;
+        color: #000;
+        font-size: 20px;
+        -webkit-transition: color 0.5s ease-in-out;
+        -moz-transition: color 0.5s ease-in-out;
+        -o-transition: color 0.5s ease-in-out;
+        -ms-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+      #page #headerb div.header-menu a:hover {
+        color: #f35353; }
   #page .fixar {
     padding: 0px !important;
     position: fixed !important;
@@ -357,15 +359,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page .logop {
       display: none !important; } }
   #page div#banner {
-    position: relative;
-    background-image: url("images/background.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-top: 200px; }
+    position: relative; }
   #page div#content section#descricao {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -560,5 +554,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */ }
+
+#status {
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 30%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url("images/preloader.gif");
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -200px 0 0 -200px;
+  /* is width and height divided by two */ }
 
 /*# sourceMappingURL=style.css.map */

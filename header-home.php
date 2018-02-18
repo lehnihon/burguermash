@@ -21,7 +21,9 @@ new WOW().init();
 </script>
 
 </head>
-
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="header" class="header">

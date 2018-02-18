@@ -16,7 +16,7 @@
 				</div>
 			</div><br><br>
 			<div class="row wow fadeInUp">
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<h3>Entre em <br>contato</h3>
 					<p>
 						Fale com a <strong>Burger Mash</strong>. <br> Será um prazer receber o seu contato.
@@ -28,7 +28,7 @@
 					<p>
 						Fique por dentro das nossas<br> novidades, promoções e <br>lançamentos.
 					</p>
-					<?php echo do_shortcode('[contact-form-7 id="26" title="News"]'); ?>
+					<?php echo do_shortcode('[contact-form-7 id="142" title="Newsletter"]'); ?>
 				</div>
 				<div class="col-md-4">
 					<h3>Venha conhecer a Burguer Mash</h3>
