@@ -384,27 +384,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#paginas h2, #page div#content section#paginas h3 {
       padding-bottom: 20px; }
     #page div#content section#paginas .cardapio .menu-cardapio {
-      box-sizing: border-box;
-      width: 100%;
-      min-height: 30px;
       margin-bottom: 30px; }
-      #page div#content section#paginas .cardapio .menu-cardapio:after {
+      #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a {
+        color: #950e19;
         display: block;
-        content: "";
-        clear: both; }
-      #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio {
-        box-sizing: border-box;
-        float: left;
-        width: 12.5%;
-        text-align: center; }
-        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a {
-          color: #950e19;
-          display: block;
-          font-weight: bold; }
-        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a.active {
-          color: #eb2d3c !important; }
-        #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a:hover {
-          color: #eb2d3c; }
+        font-weight: bold; }
+      #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a.active {
+        color: #eb2d3c !important; }
+      #page div#content section#paginas .cardapio .menu-cardapio .op-cardapio a:hover {
+        color: #eb2d3c; }
     #page div#content section#paginas .cardapio .desc-cardapio article {
       border-bottom: 1px solid #afaba2;
       padding: 20px 0; }
@@ -469,7 +457,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-size: auto !important;
       background-position: -300px top !important; }
     #page div#banner {
-      padding-top: 50px !important; } }
+      padding-top: 50px !important; }
+    #page .insta {
+      font-size: 40px !important; } }
   #page #footer {
     background-color: #7f161f;
     color: #FFFFFF;

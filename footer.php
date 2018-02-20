@@ -8,10 +8,10 @@
 			<div class="row wow fadeInUp">
 				<div class="col-md-12">
 					<ul class="redes_sociais_header">
-						<li class="youtube"><a target="_blank" href="#"></a></li>
-						<li class="instagram"><a target="_blank" href="#"></a></li>
-						<li class="twitter"><a target="_blank" href="#"></a></li>
-						<li class="facebook"><a target="_blank" href="#"></a></li>
+						<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCd6S74uJMT5HoTycl0Gj31g"></a></li>
+						<li class="instagram"><a target="_blank" href="https://www.instagram.com/burgermashoficial/"></a></li>
+						<li class="twitter"><a target="_blank" href="https://www.facebook.com/burgermash"></a></li>
+						<li class="facebook"><a target="_blank" href="https://www.tripadvisor.com.br/Restaurant_Review-g303631-d13499226-Reviews-Burger_Mash-Sao_Paulo_State_of_Sao_Paulo.html"></a></li>
 					</ul>
 				</div>
 			</div><br><br>

@@ -45,21 +45,9 @@ div#content{
 
 		.cardapio{
 			.menu-cardapio{
-				box-sizing: border-box;
-				width:100%;
-				min-height:30px;
 				margin-bottom:30px;
 
-				&:after{
-					display: block;
-				    content: "";
-				    clear: both;
-				}
 				.op-cardapio{
-					box-sizing: border-box;
-					float:left;
-					width:12.5%;
-					text-align:center;
 
 					a{
 						color:#950e19;
@@ -174,7 +162,9 @@ div#content{
 	div#banner{
 		padding-top:50px !important;
 	}
-
+	.insta{
+		font-size:40px !important;
+	}
 }
 
 @media (min-width: 992px) {  

@@ -15,6 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash.png"; ?>" />
 <?php wp_head(); ?>
 <script>
 new WOW().init();
@@ -57,10 +58,10 @@ new WOW().init();
 							</div>
 							<div class="col-md redes">
 								<ul class="redes_sociais_header">
-									<li class="youtube"><a target="_blank" href="#"></a></li>
-									<li class="instagram"><a target="_blank" href="#"></a></li>
-									<li class="twitter"><a target="_blank" href="#"></a></li>
-									<li class="facebook"><a target="_blank" href="#"></a></li>
+									<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCd6S74uJMT5HoTycl0Gj31g"></a></li>
+									<li class="instagram"><a target="_blank" href="https://www.instagram.com/burgermashoficial/"></a></li>
+									<li class="twitter"><a target="_blank" href="https://www.facebook.com/burgermash"></a></li>
+									<li class="facebook"><a target="_blank" href="https://www.tripadvisor.com.br/Restaurant_Review-g303631-d13499226-Reviews-Burger_Mash-Sao_Paulo_State_of_Sao_Paulo.html"></a></li>
 								</ul>	
 							</div>
 						</div>

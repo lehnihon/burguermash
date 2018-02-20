@@ -81,7 +81,27 @@ Anália Franco, zona leste de São Paulo.</p><br><br>
 					<p class="alexa wow fadeInUp">Compartilhe seus melhores momentos com a gente</p>
 					<h2 class="insta wow fadeInUp">#BurguerMash</h2>
 					<p class="wow fadeInUp">Aproveite e siga a Burger Mash no <a href="#"><strong>Instagram</strong></a></p><br><br>
-					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/insta-hamburguer.jpg"; ?>"/>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 01.jpg"; ?>"/>
+				</div>
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 02.jpg"; ?>"/>
+				</div>
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 03.jpg"; ?>"/>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 04.jpg"; ?>"/>
+				</div>
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 05.jpg"; ?>"/>
+				</div>
+				<div class="col-md">
+					<img class="e-cinza img-fluid wow fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Hamburgueria Burger Mash Home 06.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>
