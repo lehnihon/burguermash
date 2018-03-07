@@ -46,7 +46,7 @@ get_header(); ?>
 							$preco = get_post_meta(get_the_ID(), 'preco', true);
 							$video = get_post_meta(get_the_ID(), 'video', true);
 							?>
-							<h4><?php the_title(); ?><span class="pull-right preco"><?php echo "R$ ".esc_html($preco); ?></span></h4>
+							<h4><?php the_title(); ?><span class="preco"><?php echo "R$ ".esc_html($preco); ?></span></h4>
 							<?php the_content(); ?>
 							<footer>
 								<?php if ( has_post_thumbnail() ) { ?>

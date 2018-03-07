@@ -179,9 +179,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .btn-news {
     padding: 5px 0;
     border: 0;
-    width: 190px;
+    width: 200px;
     background-color: #ed4021;
     color: #FFF;
+    display: block;
+    margin: 0 auto;
     border-radius: 50px;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -354,7 +356,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page .header a, #page .headerb a {
         color: #FFF !important; }
       #page .header .redes, #page .headerb .redes {
-        display: none !important; } }
+        display: none !important; }
+    #page .logop {
+      margin: 0 auto; } }
   @media (min-width: 992px) {
     #page .logop {
       display: none !important; } }
@@ -415,6 +419,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           font-size: 25px; }
           #page div#content section#paginas .cardapio .desc-cardapio article .modal .close span {
             color: #FFF !important; }
+      #page div#content section#paginas .cardapio .desc-cardapio article .preco {
+        float: right; }
     #page div#content section#paginas .cardapio .desc-cardapio article:last-child {
       border-bottom: 0;
       padding-bottom: 0px; }
@@ -459,7 +465,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#banner {
       padding-top: 50px !important; }
     #page .insta {
-      font-size: 40px !important; } }
+      font-size: 40px !important; }
+    #page .preco {
+      float: none !important;
+      padding: 10px 0;
+      display: block; } }
   #page #footer {
     background-color: #7f161f;
     color: #FFFFFF;

@@ -95,6 +95,9 @@ div#content{
 							}
 						}
 					}
+					.preco{
+						float:right;
+					}
 				}
 				article:last-child{
 					border-bottom:0;
@@ -164,6 +167,11 @@ div#content{
 	}
 	.insta{
 		font-size:40px !important;
+	}
+	.preco{
+		float:none !important;
+		padding:10px 0;
+		display:block;
 	}
 }
 

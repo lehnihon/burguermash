@@ -37,11 +37,12 @@
 						Anália Franco - São Paulo
 					</p>
 					<p>
-						De Terça a Quinta: 12h ~ 15h / 19h ~ 23<br>
-						Sexta: 12h ~ 15h / 19h ~ 00h<br>
-						Sábado: 13h ~ 00h<br>
-						Domingo: 13h ~ 23h<br>
+						Quarta e Quinta: 18h / 23h<br>
+						Sexta: 12h / 23h<br>
+						Sábado: 11h / 23h<br>
+						Domingo: 11h ~ 22h<br>
 						Segunda: Fechado
+						Terça: Fechado
 					</p>
 				</div>
 			</div>
@@ -55,9 +56,9 @@
 						<li><a href="<?php echo esc_url( home_url( '' )); ?>">Página Inicial</a></li>
 						<li><a href="<?php echo esc_url( home_url( 'sobre' )); ?>">A Burguer Mash</a></li>
 						<li><a href="<?php echo esc_url( home_url( 'cardapio' )); ?>">Cardárpio</a></li>
-						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Trabalhe Conosco</a></li>
+						<!--<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Trabalhe Conosco</a></li>
 						<li><a href="<?php echo esc_url( home_url( 'seja-nosso-fornecedor' )); ?>">Fornecedor</a></li>
-						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Parcerias</a></li>
+						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Parcerias</a></li>-->
 						<li><a href="<?php echo esc_url( home_url( 'contato' )); ?>">Contato</a></li>
 					</ul>
 				</div>

@@ -17,7 +17,7 @@ get_header('home'); ?>
 					<div class="desc-container">
 						<h3>X Mash</h3>
 						<p>
-							Blend de carne, queijo prato e o famoso molho secreto Burger Mash,(guardado a 7 chaves)
+							Blend de carne, queijo prato e o nosso famoso molho secreto Burger Mash
 						</p>
 					</div>
 				</div>
@@ -26,7 +26,7 @@ get_header('home'); ?>
 					<div class="desc-container">
 						<h3>Talento</h3>
 						<p>
-							Sanduíche de rosbife caseiro (mignon vermelho), queijo, rúcula e molho de mostarda servido no pão francês.
+							Rosbife caseiro, queijo, rúcula e molho de mostarda servido na baguete
 						</p>
 					</div>
 				</div>
@@ -35,16 +35,16 @@ get_header('home'); ?>
 					<div class="desc-container">
 						<h3>Burguer Mash</h3>
 						<p>
-							Blend de carne, queijo prato,cebola roxa em conserva, tomate confitado, maionese Burger Mash 
+							Blend de carne, queijo, cebola roxa em conserva, tomate e maionese Burger Mash
 						</p>
 					</div>
 				</div>
 				<div class="col-md-3 fadeInRight wow">
 					<a href="<?php echo esc_url( home_url( '/cardapio' ) ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/hamb4.jpg"; ?>"/></a>
 					<div class="desc-container">
-						<h3>Bacon Mash</h3>
+						<h3>Chicken Mash</h3>
 						<p>
-							Blend de carne, queijo prato, bacon artesanal, cebola caramelizada, picles e maionese Burger Mash
+							Blend de frango crisp, sour cream, bacon e alface roxa
 						</p>
 					</div>
 				</div>

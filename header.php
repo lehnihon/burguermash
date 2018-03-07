@@ -10,6 +10,14 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114703869-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114703869-1');
+</script>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +44,7 @@ new WOW().init();
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 						</button>
-						<img class="logop float-right" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logop.png"; ?>"/>
+						<img class="logop" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logop.png"; ?>"/>
 						<div class="row collapse navbar-collapse" id="navbarSupportedContent">
 							<div class="col-md">
 								<a class="nav-link" href="<?php echo home_url( '/' ); ?>">INÍCIO</a>

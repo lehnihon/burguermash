@@ -17,17 +17,18 @@ get_header(); ?>
 					<?php endwhile; // End of the loop. ?>
 				</div>
 				<div class="col-md-5 offset-md-1 text-left">
-					<h3>Delivery</h3>
+					<h3>Telefone</h3>
 					<p>11 3477-2584</p><br>
 					<h3>Endereço</h3>
 					<p>Rua Emilia Marengo, 357-B<br>
 					Anália Franco - São Paulo</p><br>
 					<h3>Horário de funcionamento</h3>
-					<p>Terça a Quinta: 12h~15h / 19h~23h<br>
-					Sexta: 12h~15h / 19h~0h<br>
-					Sábado: 13h~0h<br>
-					Domingo: 13h~23h<br>
-					Segunda: Fechado</p>
+					<p>Quarta e Quinta: 18h / 23h<br>
+						Sexta: 12h / 23h<br>
+						Sábado: 11h / 23h<br>
+						Domingo: 11h ~ 22h<br>
+						Segunda: Fechado
+						Terça: Fechado</p>
 				</div>
 			</div>
 		</div>
